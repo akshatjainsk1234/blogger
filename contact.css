@@ -1,0 +1,35 @@
+
+.contact-content{
+    
+    height: 100vh;
+  
+    /* background-color: rgb(221, 221, 231); */
+    /* display: flex; */
+    margin-top: 32px;
+    padding: 9px;
+    background-image: url(images/451_REpWIE1BUiAwOTYtMDk.jpg);
+    position: relative;
+    overflow: hidden;
+}
+.contact-content ::after{
+    content: "";
+    /* background-image: url(images/450_REpWIE1BUiAwOTctMTQ.jpg); */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.25;
+    border-radius: 14px;
+    z-index: -1;
+ 
+}
+
+    
+
+
+.form-box input,textarea{
+    width: 52vw;
+    padding: 10px 6px;
+    margin: 7px;
+
+}
